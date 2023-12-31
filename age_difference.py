@@ -1,2 +1,2 @@
 def age_difference(ages):
-    pass
+    return(min(ages), max(ages))
