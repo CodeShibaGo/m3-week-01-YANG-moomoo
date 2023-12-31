@@ -5,4 +5,4 @@ def find_capitals(word):
         if word[i].islower() == False and word[i] != " ":
             find += word[i]
 
-    return find.strip()
+    return find
