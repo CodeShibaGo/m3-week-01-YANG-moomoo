@@ -1,2 +1,5 @@
 def abbrev_name(name):
-  pass
+  name = name.upper()
+  first,last = name.split(' ')
+  
+  return first[0] + '.' + last[0]
