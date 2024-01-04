@@ -1,2 +1,4 @@
+import math
+
 def century(year):
-    pass
+    return math.ceil(year/100)

@@ -1,2 +1,4 @@
+import numpy as np
+
 def calculate_average(nums):
-    pass
+    return np.mean(nums)

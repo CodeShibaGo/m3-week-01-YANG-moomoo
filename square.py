@@ -1,2 +1,2 @@
 def is_square(n):
-    pass
+    return  (n ** 0.5).is_integer()

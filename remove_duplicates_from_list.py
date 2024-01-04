@@ -1,2 +1,8 @@
 def distinct(seq):
-    pass
+    dup = []
+     
+    for i in seq :
+        if i not in dup:
+            dup.append(i)
+
+    return dup
