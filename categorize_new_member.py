@@ -1,8 +1,8 @@
 def categorize_new_member(data):
 
     for i in data :
-        if not all(isinstance(i, list) and len(i) == 2 ):
-            return "Error: Input should be a list with two integers each"
+        if not isinstance(i, tuple)  or  len(i) != 2 :
+            return "Error: Input should be a list with two number"
     
     cate = []
 
