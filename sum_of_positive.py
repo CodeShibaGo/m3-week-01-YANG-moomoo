@@ -1,9 +1,9 @@
 def positive_sum(arr):
-    k = 0
+    sum = 0
 
     for i in arr:
         if i > 0 :
-            k = k + i
+            sum = sum + i
 
-    return k
+    return sum
 

@@ -1,5 +1,10 @@
 def abbrev_name(name):
   name = name.upper()
-  first,last = name.split(' ')
+  parts = name.split(' ')
+
+  if len(parts) != 2:
+        return "Error: Name must consist of two parts"
+  
+  first,last = parts
   
   return first[0] + '.' + last[0]
